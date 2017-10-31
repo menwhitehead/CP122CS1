@@ -31,8 +31,7 @@ public class WikiReader {
   }
 
 
-
-	public static void main(String[] args) {
+  public static void main(String[] args) {
     WikiReader wr = new WikiReader();
     int final_count = wr.getWordCount("dog");
     try {
@@ -45,7 +44,7 @@ public class WikiReader {
     catch (FileNotFoundException e) {
       System.out.println("ERRORROROROR: " + e);
     }
-	}
+  }
 }
 
 
